@@ -1,9 +1,10 @@
 {
-    "name": "YOUR_PACKAGE_NAME",
+    "name": "react_typist",
     "version": "0.1.0",
     "description": "",
-    "main": "./lib/YOUR_COMPONENT.js",
+    "main": "./lib/Typist.js",
     "license": "MIT",
+    "author": "Ruoyu Wang",
     "scripts": {
         "build": "webpack"
     },
