@@ -15,15 +15,26 @@ npm install --save react_typist
 ```jsx
 import React, { Component } from 'react'
 
-import MyComponent from 'react_typist'
+import MyTypist from 'react_typist'
 import 'react_typist/dist/index.css'
 
 class Example extends Component {
   render() {
-    return <MyComponent />
+    return <MyTypist />
   }
 }
 ```
+
+
+
+## Props
+
+| # Props   | # Des                                                        |
+| --------- | :----------------------------------------------------------- |
+| paragraph | A list of objcet with specif keys. <br /> Example  `[{data: 'Hello :)', fontSize: 60, fontColor: '#eee', delay: 1000}]` |
+| Speed     | The type speed for each character                            |
+
+
 
 ## License
 

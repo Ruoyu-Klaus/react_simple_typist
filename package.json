@@ -2,7 +2,7 @@
   "name": "react_typist",
   "version": "1.0.0",
   "description": "a simple character typist react component",
-  "author": "https://github.com/Ruoyu-Klaus",
+  "author": "Ruoyu Wang",
   "license": "MIT",
   "repository": "https://github.com/Ruoyu-Klaus/react_typist",
   "main": "dist/index.js",
