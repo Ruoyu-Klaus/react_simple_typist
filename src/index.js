@@ -104,19 +104,19 @@ TypeText.defaultProps = {
       delay: 1000
     },
     {
-      data: 'What can I do for you?',
+      data: 'What can I do for you? ',
       fontSize: 40,
       fontColor: 'pink',
       delay: 3000
     },
     {
-      data: 'You waste 4s to see this junk words!',
+      data: 'Come on man, leave those junk words and try this package! ',
       fontSize: 40,
       fontColor: 'green',
-      delay: 3000
+      delay: 5000
     },
     {
-      data: 'Oh, Sucks! You really like to waste you time man !',
+      data: 'Oh, Sick! You really like to waste you time man !',
       fontSize: 40,
       fontColor: 'red',
       delay: 60000
@@ -128,7 +128,7 @@ TypeText.defaultProps = {
       delay: 0
     }
   ],
-  speed: 200
+  speed: 150
 }
 
 export default TypeText
