@@ -8498,7 +8498,7 @@ react-is@^16.8.1, react-is@^16.8.4:
   version "0.0.0"
   uid ""
 
-"react_typist@link:..":
+"react_simple_typist@link:..":
   version "0.0.0"
   uid ""
 

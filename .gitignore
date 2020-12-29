@@ -4,6 +4,9 @@
 # dependencies
 node_modules
 
+#src
+src
+
 # builds
 build
 dist
