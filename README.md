@@ -1,4 +1,4 @@
-# react_typist
+# react_simple_typist
 
 > a simple character typist react component
 
@@ -7,7 +7,7 @@
 ## Install
 
 ```bash
-npm install --save react_typist
+npm install --save react_simple_typist
 ```
 
 ## Usage
@@ -15,8 +15,8 @@ npm install --save react_typist
 ```jsx
 import React, { Component } from 'react'
 
-import MyTypist from 'react_typist'
-import 'react_typist/dist/index.css'
+import MyTypist from 'react_simple_typist'
+import 'react_simple_typist/dist/index.css'
 
 class Example extends Component {
   render() {
