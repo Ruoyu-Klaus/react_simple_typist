@@ -31,7 +31,7 @@ class Example extends Component {
 
 | # Props   | # Des                                                        |
 | --------- | :----------------------------------------------------------- |
-| paragraph | A list of objcet with specif keys. <br /> Example  `[{data: 'Hello :)', fontSize: 60, fontColor: '#eee', delay: 1000}]` |
+| paragraph | A list of objcet with specific keys. <br /> Example  `[{data: 'Hello :)', fontSize: 60, fontColor: '#eee', delay: 1000}]` |
 | Speed     | The type speed for each character                            |
 
 
