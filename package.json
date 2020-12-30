@@ -4,7 +4,7 @@
   "description": "a simple character typist react component",
   "author": "Ruoyu Wang",
   "license": "MIT",
-  "repository": "https://github.com/Ruoyu-Klaus/react_typist",
+  "repository": "https://github.com/Ruoyu-Klaus/react_simple_typist",
   "main": "dist/index.js",
   "module": "dist/index.modern.js",
   "source": "src/index.js",
