@@ -98,7 +98,7 @@ TypeText.defaultProps = {
       delay: 1000
     },
     {
-      data: 'I am a typist as a React Component.',
+      data: 'I am a simple typist as a React Component.',
       fontSize: 40,
       fontColor: '#eee',
       delay: 1000
@@ -110,13 +110,13 @@ TypeText.defaultProps = {
       delay: 3000
     },
     {
-      data: 'Come on man, leave those junk words and try this package! ',
+      data: 'Come on, try and play around with it.',
       fontSize: 40,
       fontColor: 'green',
       delay: 5000
     },
     {
-      data: 'Oh, Sick! You really like to waste you time man !',
+      data: 'Sick! You really like to waste you time man !',
       fontSize: 40,
       fontColor: 'red',
       delay: 60000

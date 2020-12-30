@@ -10,6 +10,8 @@
 
 ```bash
 npm install --save react_simple_typist
+or
+yarn add react_simple_typist
 ```
 
 ## Usage
@@ -17,26 +19,22 @@ npm install --save react_simple_typist
 ```jsx
 import React from 'react'
 
-import MyTypist from 'react_simple_typist'
+import TypeText from 'react_simple_typist'
 import 'react_simple_typist/dist/index.css'
 
 class Example extends Component {
   render() {
-    return <MyTypist />
+    return <TypeText />
   }
 }
 ```
 
-
-
 ## Props
 
-| # Props   | # Des                                                        |
-| --------- | :----------------------------------------------------------- |
-| paragraph | A list of objcet with specific keys. <br /> Example  `[{data: 'Hello :)', fontSize: 60, fontColor: '#eee', delay: 1000}]` |
-| Speed     | The type speed for each character                            |
-
-
+| # Props   | # Des                                                                                                                    |
+| --------- | :----------------------------------------------------------------------------------------------------------------------- |
+| paragraph | A list of objcet with specific keys. <br /> Example `[{data: 'Hello :)', fontSize: 60, fontColor: '#eee', delay: 1000}]` |
+| Speed     | The type speed for each character                                                                                        |
 
 ## License
 
