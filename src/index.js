@@ -3,7 +3,7 @@ import PropTypes from 'prop-types'
 import styles from './styles.module.css'
 
 function TypeText(props) {
-  const { paragraph, speed = 200 } = props
+  const { paragraph, speed = 200, lineClassName = 'lineClassName' } = props
 
   const [renderList, setRenderList] = useState({})
   const lineIndex = useRef(0)
@@ -23,7 +23,7 @@ function TypeText(props) {
   const generateContent = useCallback(
     (paragraph) => {
       let wordCount = 1
-      let currentIndex = lineIndex.current
+      const currentIndex = lineIndex.current
 
       if (lineIndex.current < paragraph.length) {
         const timer = setInterval(() => {
@@ -47,7 +47,6 @@ function TypeText(props) {
           }
         }, speed)
       }
-      return
     },
     [paragraph, lineIndex]
   )
@@ -68,7 +67,7 @@ function TypeText(props) {
       {Object.entries(renderList).map(([lineIndex, lineContent]) => {
         return (
           <div
-            className={styles.line + ' ' + lineIndex}
+            className={lineClassName + ' ' + lineIndex}
             style={{
               fontSize: `${lineContent.fontSize}px`,
               color: `${lineContent.fontColor}`

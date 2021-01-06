@@ -8,6 +8,28 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+@import url(https://fonts.googleapis.com/css?family=Khula:700);
+body {
+  background: #111;
+}
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.lineClassName {
+  font-family: Khula;
+  font-size: 4em;
+  height: fit-content;
+  width: 850px;
+  overflow: hidden;
+  display: block;
+  color: white;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
