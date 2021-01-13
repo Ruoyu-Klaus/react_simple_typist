@@ -44,7 +44,7 @@ class Example extends Component {
 | # Props       | # Des                                                        |
 | ------------- | :----------------------------------------------------------- |
 | paragraph     | A list of objcet with specific keys. <br /> Example `[{data: 'Hello :)', fontSize: 60, fontColor: '#eee', delay: 1000}]` |
-| Speed         | The type speed for each character                            |
+| speed         | The type speed for each character                            |
 | lineClassName | You can customize line class name. Default is 'lineClassName' |
 
 
